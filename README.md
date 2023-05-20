@@ -1,1 +1,1 @@
-# business-hackathon
+# Hackathon Business 2.0
