@@ -23,8 +23,8 @@ We can use a gradient boosting model.
 We can use the F1 score to evaluate the model. For threshold independent evaluation, we can use the ROC-AUC score.
 
 Metrics achieved on the validation set (20% of the training set):
-- F1 score: ...
-- ROC-AUC score: ...
+- F1 score: 0.37
+- ROC-AUC score: 0.82
 
 ### Drawbacks
 This method does not cover the case of new clients or new products.
