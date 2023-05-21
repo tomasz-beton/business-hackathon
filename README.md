@@ -29,3 +29,12 @@ Metrics achieved on the validation set (20% of the training set):
 ### Drawbacks
 This method does not cover the case of new clients or new products.
 Client and product features should be re-computed periodically.
+
+## Association rules mining model
+Another model that we can use is association rules mining using Apriori algorithm. We can use the information from the previous transactions - `transaction_items__prior.csv`. To classify groups of products frequently bought together.
+
+### Model
+Apriori algorithm is a classical algorithm for frequent itemset mining and association rule learning over transactional databases. It proceeds by identifying the frequent individual items in the database and extending them to larger and larger item sets as long as those item sets appear sufficiently often in the database. The frequent itemsets determined by Apriori can be used to determine association rules which highlight general trends in the database.
+
+### Evaluation
+Association rules have been found for a total of 100 products belonging to the top 10 most selling categories
